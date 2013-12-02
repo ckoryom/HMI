@@ -1,0 +1,45 @@
+.logo{
+height:200px;
+width:100%;
+background-color: grey;
+margin-top:30px;
+margin-bottom:30px;]
+padding:10px;
+}
+
+.logo div{
+	width:100%;
+	height:100%; 
+}
+
+.navi{
+margin-bottom: 40px;}
+
+.r-list{
+height:200px;
+margin:20px;
+}
+
+.featured{
+height: 400px;
+}
+
+.featured img{
+height: 400px;
+width: 100%;
+}
+
+.fr{
+float:right;
+}
+
+.border-round{
+
+}
+
+
+
+
+.categories {
+	list-style-image: url("img/po.png");
+}
