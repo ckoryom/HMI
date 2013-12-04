@@ -15,16 +15,30 @@
     <![endif]-->
   </head>
   <body>
+
     <header>
-      <div class="logo">
-        <div></div>
-      </div>
-      <div class="navi container">
-        <button class="btn">Logout</button>
-        <button class="btn">My Recipies</button>
-        <button class="btn">Write Recipie</button>
-        <input type="text" class="search" />  <button class="btn fr">Search</button>
-      </div>  
+      <div class="row header-background">
+        <div class="row navi-background">
+          <div class="navi container">
+            <div class="header-welcome">
+              <a>Hi, Alex!</a>
+            </div>
+            <div class="header-middle">
+              <a>My Recipes</a>
+              <a>Write Recipe</a>
+            </div>
+            <div class="header-search">
+              <input type="text" placeholder="Search for a recipe..." class="search-input" /><a class="search-btn">Go</a> 
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="header-name"> 
+            HOUSEWIVES RECIPES
+          </div>
+        </div>
+
+      </div> 
     </header>
 
     <div class="container">
@@ -48,21 +62,33 @@
 
 
 <div>
-  <h2>Write recipe</h2>
-  <input type="text" class="write-title" /> 
-  <input type="textarea" class="write-ingredients" /> 
-  <input type="textarea" class="write-description" /> 
-
-  <button class="btn">Upload Picture</button>
-  <button class="btn">Upload Video</button>
+  <h1>Write recipe</h1>
 
 
-  <button class="btn">Publish</button>
-  <button class="btn">Save as draft</button>
+  <p>
+    <h3>Recipe Title</h3>
+    <input type="text" class="write-title" /></p>
+  <p>
+    <h3>Needed Ingredients</h3>
+    <input type="textarea" class="write-ingredients" /> 
+  </p>
+  <p>
+    <h3>Recipe</h3>
+    <input type="textarea" class="write-description" /> 
+  </p>
+
+  <button class="btn btn-primary btn-50p">Upload Picture</button>
+  <button class="btn btn-primary btn-50p">Upload Video</button>
+
+  <hr/>
+
+  <button class="btn btn-danger btn-25p">Publish</button>
+  <button class="btn btn-warning btn-25p">Save as draft</button>
 </div>
 
 
       </div>
     </div>
+    <hr/>
   </body>
 </html>
